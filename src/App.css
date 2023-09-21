@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.skill {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 800;
+}
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 8px;
+  margin-top: 16px;
+}
+.avatar img {
+  width: 250px;
+  display: block;
+}
+.container {
+  margin: 2rem  ;
+  padding: 2rem;
+  width: 300px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 4px 6px rgba(0,0,0,0.1);
+}
+.card {
+  padding: 6px;
+}
